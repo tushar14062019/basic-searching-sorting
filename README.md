@@ -15,3 +15,16 @@ Sorting is the process of arranging data in a specific order, typically in ascen
 - **Quick Sort** - Divides the collection into smaller sublists and sorts them independently.
 - **Merge Sort** - Divides the collection into halves, sorts each half, and then merges them back together.
 - **insertion Sort** - Builds the sorted list one item at a time.
+
+### Bubble Sort
+
+Bubble sort is one of the simplest sorting algorithms, but it's also one of the least efficient. It works by repeatedly stepping through the list, comparing adjacent items, and swapping them if they are in the wrong order. This process is repeated until the list is sorted.
+
+**Algorithm**
+-Start at the beginning of the list.
+-Compare each pair of adjacent elements.
+-If the current element is greater than the next, swap them.
+-Repeat steps 2 and 3 for each pair of elements, moving from left to right.
+-After each pass through the list, the largest element "bubbles up" to the end.
+-Repeat the process for the remaining unsorted portion of the list.
+-Stop when no more swaps are needed (the list is sorted
