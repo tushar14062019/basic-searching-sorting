@@ -27,4 +27,4 @@ Bubble sort is one of the simplest sorting algorithms, but it's also one of the 
 - Repeat steps 2 and 3 for each pair of elements, moving from left to right.
 - After each pass through the list, the largest element "bubbles up" to the end.
 - Repeat the process for the remaining unsorted portion of the list.
-- Stop when no more swaps are needed (the list is sorted
+- Stop when no more swaps are needed
