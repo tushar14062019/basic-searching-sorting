@@ -1,0 +1,29 @@
+1.Selection sort
+#Pseudocode
+Start 
+  selectionsort(a,b)
+    for i=0 to b-2 do
+      minindex = i
+      for j= i + 1 to b-1 do
+          if a[j]<a[minindex]then
+            minindex=j
+          end if
+      end for
+      swap a[i] and a[minindex]
+    end for
+end
+
+2.Insertion Sort
+#Pseudocode
+start
+  Insertionsort(array,a)
+    for i=1 to n-1 do
+      key=array[i]
+      j=i-1
+      while j>=0 amd array[j]>key do
+        array[j+1]=array[j]
+        j=j-1
+      end while
+      array[j+1]=key
+    end for
+end
